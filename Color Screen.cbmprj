@@ -28,11 +28,38 @@
         <FileName>plot.asm</FileName>
         <FileName>loops-alphabet.asm</FileName>
         <FileName>index-with-loops.asm</FileName>
-        <FileName>fill-screen.asm</FileName>
+        <FileName>nested-loop.asm</FileName>
+        <FileName>branching-forward.asm</FileName>
+        <FileName>increment.asm</FileName>
+        <FileName>press-keys.asm</FileName>
+        <FileName>#12-read-return.asm</FileName>
+        <FileName>move-sprite.asm</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
-    <PaddingByte>0</PaddingByte>
+    <PaddingByte>234</PaddingByte>
     <SourceFiles>
+        <SourceFile>
+            <Name>#12-read-return.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>branching-forward.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
         <SourceFile>
             <Name>color-screen.asm</Name>
             <PrgName />
@@ -46,6 +73,17 @@
         </SourceFile>
         <SourceFile>
             <Name>colour.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>increment.asm</Name>
             <PrgName />
             <FileType>2</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -78,7 +116,40 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
+            <Name>move-sprite.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>nested-loop.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
             <Name>plot.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>press-keys.asm</Name>
             <PrgName />
             <FileType>2</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -111,15 +182,15 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>fill-screen.asm</Name>
+            <Name>spite.spt</Name>
             <PrgName />
-            <FileType>2</FileType>
+            <FileType>7</FileType>
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
+            <FileOpen>False</FileOpen>
         </SourceFile>
     </SourceFiles>
 </Project>

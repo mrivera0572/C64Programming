@@ -22,7 +22,6 @@
     </BuildEvents>
     <BuildList>
         <FileName>colour.asm</FileName>
-        <FileName>printname.asm</FileName>
         <FileName>repeat-keys.asm</FileName>
         <FileName>color-screen.asm</FileName>
         <FileName>plot.asm</FileName>
@@ -34,12 +33,37 @@
         <FileName>press-keys.asm</FileName>
         <FileName>#12-read-return.asm</FileName>
         <FileName>move-sprite.asm</FileName>
+        <FileName>#13-red-green-background.asm</FileName>
+        <FileName>#14-fat-lines.asm</FileName>
+        <FileName>#15-animation.asm</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
     <SourceFiles>
         <SourceFile>
             <Name>#12-read-return.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>#13-red-green-background.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>#14-fat-lines.asm</Name>
             <PrgName />
             <FileType>2</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -160,17 +184,6 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>printname.asm</Name>
-            <PrgName />
-            <FileType>2</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
             <Name>repeat-keys.asm</Name>
             <PrgName />
             <FileType>2</FileType>
@@ -191,6 +204,17 @@
             <Bookmarks />
             <Topmost>False</Topmost>
             <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>#15-animation.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
 </Project>

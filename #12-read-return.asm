@@ -7,7 +7,7 @@ CHROUT = $FFD2                       ; output char
                jsr            CLEAR
 SCAN           jsr            SCNKEY
                jsr            GETIN          
-               beq            scan
+              ; beq            scan
                cmp            #$0D           ; compare with ascii for return
                beq            END            
 
